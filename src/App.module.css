@@ -13,12 +13,19 @@ body {
 
 .heading {
   font-family: 'Poiret One', cursive;
-  font-size: 3rem;
+  font-size: 4rem;
   margin-top: 50px;
 }
 
 @media (max-width: 770px) {
   .container {
     margin: 0 10%;
+  }
+
+  .heading {
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
   }
 }
